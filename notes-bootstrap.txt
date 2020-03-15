@@ -1,0 +1,43 @@
+propperties to lookup
+how to center element
+top 
+left
+right 
+
+
+==== Bootstrap ====
+dont use for production bootstrap
+ purgecss = minify the bootstrap to low file
+ but it's always larger file compared vanilla css
+
+:: bootstrap
+two types of containers
+
+container-fluid and container
+container = have bigger margins from lef to right , it takes width 1140px , we always use contauner
+container-fluid = takes all available width 100%
+
+
+28 min : break 
+
+
+h=display h1=display-1
+text-black-50 = thaat 50 stands for rgba(0,0,0,0.5)
+align-items-start = align element to top
+align-content-start = align content of that element to start right
+
+controlling cards like projects when you have three cards = we use card-group
+img-fluid or w-100  = takes 100 % of width image, 
+
+m-auto = margin-auto it center everthing, 
+and it will take effectonly after  specificed style cusotme width or heigh
+mx = margin x-axis / left and right 
+my = margin y-axis / top and bottom
+bootstrap documentation:
+
+every element shoul be inside container
+
+every column should be inside row
+we can mix and match as long as it wil be total of 12
+- if you dont specify break points it will effect that class 
+all types of media: col-8 < col-md-6
